@@ -24,4 +24,16 @@ Il faut ajouter la table "membres" à une base de données appelée messagerie p
 
 table membres :
 
+CREATE TABLE IF NOT EXISTS `membres` (
+  `membre_id` int(11) NOT NULL AUTO_INCREMENT,
+  `membre_pseudo` varchar(30) CHARACTER SET latin1 COLLATE latin1_general_ci NOT NULL,
+  `membre_mdp` varchar(32) CHARACTER SET latin1 COLLATE latin1_general_ci NOT NULL,
+  `membre_email` varchar(250) CHARACTER SET latin1 COLLATE latin1_general_ci NOT NULL,
+  `membre_inscrit` int(11) NOT NULL,
+  `membre_derniere_visite` int(11) NOT NULL,
+  `membre_rang` tinyint(4) DEFAULT '2',
+  `membre_post` int(11) NOT NULL,
+  PRIMARY KEY (`membre_id`)
+) 
+
 
