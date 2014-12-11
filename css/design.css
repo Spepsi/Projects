@@ -1,0 +1,285 @@
+body {
+font-family: 'Trebuchet MS', Arial, sans-serif;
+color: #181818;
+background-color: rgba(116,146,170,0.2) ;
+
+}
+
+.element_menu {
+display : inline-block;
+	vertical-align: text-top;
+
+}
+
+#menu {
+
+	text-align:  center;
+}
+#banniere
+{
+background-repeat: true ;
+height: 150px;
+background-position:  center;
+margin-bottom: 20px; 
+background-image: url('../images/banniere.jpg');
+}
+#banniere h1 {
+
+
+
+}
+
+#corps
+{
+border: 1px solid black;
+width: 90%;
+margin-top: 50px;
+margin-left: 5%;
+margin-bottom: 10Opx;
+padding: 5px;
+background-color: rgba(116,146,170,0.3);
+    border-radius:7px;
+    font-size: 0.85em;
+
+}
+
+#footer
+{
+border: 1px solid black;
+width: 90%;
+margin-top: 50px;
+margin-left: 5%;
+margin-bottom: 10Opx;
+padding: 5px;
+    border-radius:7px;
+    font-size: 0.85em;
+background-color:  rgba(116,146,170,0.3);
+}
+
+
+.titre { width:61%; }
+
+
+td { border: 1px solid black; background-color:  rgba(116,146,170,0.3);; vertical-align:top; }
+table { background-color:  rgba(116,146,170,0.3);; border: 1px solid black; }
+th { background-color:  rgba(116,146,170,0.3);; border: 1px solid black; }
+
+
+label {
+display:block;
+width:150px;
+float:left;
+}
+
+ul {
+list-style-type: none;
+}
+
+#salon {
+float : left ;
+}
+#listeUsers
+
+{
+border-radius: 10px;
+border-width:2px;
+border-style : outset ;
+height : 600px ;
+width : 200px ;
+text-align : center ;
+overflow : scroll ;
+overflow-x:hidden ;
+
+}
+
+#blocPage  {
+display : inline ;
+width: 900px;
+
+
+}
+
+#blocSalonRoom {
+display : inline-block ;
+}
+h1 {
+
+	text-align:  center ;
+}
+#accueil h1 {
+    margin-bottom: 0px;
+	text-align : center ;
+}
+
+.discussion {
+position : relative ;
+top : 80px ;
+left : 20px; 
+border-radius: 10px;
+float : left ; 
+background-color:  rgba(116,146,170,0.1);
+opacity:0.9;
+height : 300px ;
+width : 500px ;
+border-width:2px;
+border-style : outset ;
+padding:8px 0;
+}
+
+.discussion h1 {
+text-align : center ;
+border-width : 2px ;
+border-style : inset;
+border-radius:7px;
+}
+
+.discussion .messages {
+height : 150px ;
+width : 500px ;
+overflow: scroll;
+overflow-x:hidden ;
+font-size: 1.25em;
+}
+
+a {
+color: #181818;
+text-decoration : none ;
+}
+
+
+.closeButton {
+    
+    padding:8px 0;
+    text-align:center;
+    display: inline-block;
+    margin:0 8px 0 0;
+    border-radius:7px;
+    font-size: 0.85em;
+    width:70px;
+    background-color: rgba(116,146,170, 0.1);
+    opacity:0.9;
+}
+.inviteButton {
+    
+    padding:8px 0;
+    text-align:center;
+    display: inline-block;
+    margin:0 8px 0 0;
+    border-radius:7px;
+    font-size: 0.85em;
+    width:70px;
+    background-color: rgba(116,146,170, 0.1);
+    opacity:0.9;
+}
+
+
+
+#formulaire_login {
+	margin : auto ;
+    width:200px;
+    padding:8px 0;
+    text-align:center;
+    display: inline-block;
+
+    border-radius:7px;
+    font-size: 0.85em;
+    opacity:0.9;
+    
+    background-color: rgba(116,146,170, 0.1);
+    
+}
+
+.NavButton {
+	
+    width:200px;
+    padding:8px 0;
+    text-align:left;
+    border-radius:7px;
+    font-size: 0.85em;
+    opacity:0.9;
+    background-color: rgba(116,146,170, 0.1);
+
+
+}
+
+a:hover {
+color: #181818;
+text-decoration : underline ;
+
+}
+
+.sendButton {
+    width:70px;
+    padding:8px 0;
+    text-align:center;
+    display: inline-block;
+    margin:0 8px 0 0;
+    border-radius:7px;
+    font-size: 0.85em;
+	opacity:0.9;
+	
+    background-color: rgba(116,146,170, 0.1);
+    
+}
+
+
+.monMessage {
+    width:380px;
+    padding:8px 0;
+    display: inline-block;
+    margin:0 8px 0 0;
+    border-radius:7px;
+    font-size: 0.85em;
+	opacity:0.9;
+	
+    background-color: rgba(116,146,170, 0.1);
+    
+}
+
+#bonjourMessage {
+text-align : center ;
+
+}
+
+
+#recherche {
+	text-align : center ;
+    width:150px;
+    padding:8px 0;
+    display: inline-block;
+    margin:0 8px 0 0;
+    border-radius:7px;
+    font-size: 0.85em;
+	opacity:0.9;
+	
+    background-color: rgba(42,137,252, 0.1);
+	width : 150px ;
+
+}
+
+#login {
+	text-align : center ;
+    width:150px;
+    padding:8px 0;
+    display: inline-block;
+    margin:0 8px 0 0;
+    border-radius:7px;
+    font-size: 0.85em;
+	opacity:0.9;
+	background-color: rgba(42,137,252, 0.1);
+}
+
+
+#validerLogin {
+
+    width:70px;
+    padding:8px 0;
+    text-align:center;
+    display: inline-block;
+    margin:0 8px 0 0;
+    border-radius:7px;
+    font-size: 0.85em;
+	opacity:0.9;
+	
+    background-color: rgba(10, 0, 250, 0.1);
+}
