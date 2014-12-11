@@ -1,7 +1,9 @@
 Projects
 ========
 !!! Compatible uniquement Chrome  (Testé uniquement sous Chrome) !!!
-!!!  Version de test !!!
+===  Version de test ===
+
+
 Site de présentation et Messagerie avec divers fonctionnalités
 
 - Système de connexion et d'inscription
